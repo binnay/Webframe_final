@@ -43,9 +43,10 @@ const ModalPage = ({ selectedCrewName }) => {
           </div>
     
       </div>
+      <hr></hr>
     </div> 
     
-    <hr></hr>
+    
     <p id="explanation"> {selectedCrew.explanation} </p> 
     </> 
   ); 
@@ -53,3 +54,4 @@ const ModalPage = ({ selectedCrewName }) => {
 
 
 export default ModalPage;
+
