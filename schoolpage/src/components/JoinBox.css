@@ -6,7 +6,6 @@
     border-radius: 8px;
     overflow: hidden;
     background-color: #e0e0e0;
-    cursor:pointer;
 }
 
 .crewImg {
@@ -16,8 +15,12 @@
 }
 
 .crewName, .joinDate {
-    padding: 8px; 
+    margin-top: 11px;
     border-top: 1px solid #ddd; 
     font-size: 1vw;
     height: 5%;
+}
+
+.crewName{
+    font-weight: 600;
 }
